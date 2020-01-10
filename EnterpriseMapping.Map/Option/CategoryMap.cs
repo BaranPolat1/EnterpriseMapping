@@ -13,7 +13,7 @@ namespace EnterpriseMapping.Map.Option
         {
             ToTable("dbo.Categories");
             Property(x => x.Name).HasMaxLength(20).HasColumnType("NVarChar").IsRequired();
-            Property(x => x.Description).HasMaxLength(50).HasColumnType("NVarChar").IsOptional();
+            Property(x => x.Description).HasMaxLength(55).HasColumnType("NVarChar").IsOptional();
 
             HasMany(x => x.Products)
                 .WithRequired(x => x.Category)
