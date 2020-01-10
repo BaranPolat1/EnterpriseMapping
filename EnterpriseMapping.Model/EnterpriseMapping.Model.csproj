@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Abstraction\ICore.cs" />
+    <Compile Include="Entity\Concrete\AppUser.cs" />
+    <Compile Include="Entity\Concrete\BaseEntity.cs" />
+    <Compile Include="Entity\Concrete\Category.cs" />
+    <Compile Include="Entity\Concrete\Product.cs" />
+    <Compile Include="Entity\Concrete\ProductComment.cs" />
+    <Compile Include="Entity\Enum\Role.cs" />
+    <Compile Include="Entity\Enum\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

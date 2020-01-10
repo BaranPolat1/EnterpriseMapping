@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMapping.Model", "EnterpriseMapping.Model\EnterpriseMapping.Model.csproj", "{F72E3C66-98E9-462F-B7EB-539705FC9FEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMapping.DAL", "EnterpriseMapping.DAL\EnterpriseMapping.DAL.csproj", "{9FC4A0A0-8843-4996-B4EA-DC4FC1618910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMapping.Map", "EnterpriseMapping.Map\EnterpriseMapping.Map.csproj", "{C4C42AD6-D596-4893-825E-E928B39010D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F72E3C66-98E9-462F-B7EB-539705FC9FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F72E3C66-98E9-462F-B7EB-539705FC9FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F72E3C66-98E9-462F-B7EB-539705FC9FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC4A0A0-8843-4996-B4EA-DC4FC1618910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC4A0A0-8843-4996-B4EA-DC4FC1618910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC4A0A0-8843-4996-B4EA-DC4FC1618910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC4A0A0-8843-4996-B4EA-DC4FC1618910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C42AD6-D596-4893-825E-E928B39010D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C42AD6-D596-4893-825E-E928B39010D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C42AD6-D596-4893-825E-E928B39010D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C42AD6-D596-4893-825E-E928B39010D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
